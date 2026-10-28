@@ -1,6 +1,14 @@
 import SwiftUI
 import AVFoundation
 
+@main
+struct OutLineApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
 // MARK: - Uygulama Dilleri ve Dil Yöneticisi
 enum AppLanguage: String, CaseIterable, Identifiable {
     case turkish = "tr"
